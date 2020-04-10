@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Montserrat", serif;
+}
+:root {
+  /* Colors */
+  --backgroundColor: #FFFFFF;
+  --secondaryColor: #F2F2F2;
+  --textColor: #000000;
+  --menuTextColor: #FFFFFF;
+  --accentColor: #306eb0;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  width: 70%;
+  min-width: 600px;
+  margin: auto;
+}
+
+b {
+  font-weight: 700;
+}
+
+a {
+  color: var(--textColor);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+a:hover, a:active{
+  color: var(--accentColor);
+}
+
+.Header {
+  font-family: "Montserrat", serif;
+  display: inline-block;
+  padding: 40px 0px 40px 0px;
+
+}
+
+name {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--textColor);
+  display: block;
+}
+
+nameTitle {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--textColor);
+  display: block;
+}
+
+contanct {
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  color: var(--textColor);
+  display: block;
+}
+
+.Section {
+  margin-bottom: 60px;
+}
+
+sectionTitle {
+  font-family: "Montserrat", serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--textColor);
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+sectionTitle:after {
+  display: inline-block;
+  content: "";
+  height: 4px;
+  font-weight: 700;
+  background: var(--textColor);
+  position: absolute;
+  width: 100%;
+  transition-duration: 0.5s;
+  top: 73%;
+  margin-top: -2px;
+  margin-left: 10px;
+}
+
+sectionTitle:hover:after {
+  width: 70%;
+}
+
+.Item {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+
+itemTitle {
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  /* text-transform: uppercase; */
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--textColor);
+  display: inline-block;
+  width: 70%;
+}
+
+itemDate {
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+  font-style: italic;
+  text-align: right;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--textColor);
+  display: inline-block;
+  width: 29%;
+}
+
+description {
+  ont-family: "Montserrat", serif;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--textColor);
+  display: block;
+  width: 100%
+}

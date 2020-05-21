@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./cahstyle.css" type="text/css">
+    <script language="javascript" type="text/javascript" src="./papaparse.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./loadQuestion.js"></script>
+    <base target="_blank">
+    <title>Cards Against Humanity</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      window.onload = function(){
+
+        //Load all the prompts
+        Papa.parse("Prompts.csv", {
+          header: true,
+          download: true,
+          dynamicTyping: true,
+          complete: function(results){
+            processPrompts(results.data);
+          }
+        });
+
+        //Load all the responses
+        Papa.parse("Responses.csv", {
+          header: true,
+          download: true,
+          dynamicTyping: true,
+          complete: function(results){
+            processResposes(results.data);
+          }
+        });
+      }
+    </script>
+
+    <div class='question' id ='Q'>
+      <!-- <p>Mr. and Mrs. Diaz, we called you in because we're concerned about Cynthia. Are you aware that your daughter is ______?</p> -->
+    </div>
+
+    <div class='responses' id='R'>
+      <!-- <div class='response'>
+        <p> A cat video so cute that your eyes roll back and your spine slides out of your anus.</p>
+      </div> -->
+    </div>
+
+  </body>
+</html>

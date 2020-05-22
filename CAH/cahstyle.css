@@ -39,7 +39,7 @@ a:hover, a:active{
 .question {
   background-color: #000;
   width: 100%;
-  height: 350px;
+  height: 450px;
   margin: auto;
 }
 
@@ -103,8 +103,6 @@ a:hover, a:active{
   display: inline-table;
   position: relative;
   top: 10%;
-  /* left: 0; */
-  /* transform: translateY(-50%); */
 }
 
 .response p:hover{

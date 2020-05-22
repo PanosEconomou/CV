@@ -12,6 +12,7 @@ function processPrompts(prompts){
   var par = document.createElement("p");
   par.innerHTML = prompt;
   par.setAttribute('id',"prompt")
+  par.setAttribute('onclick',"changePrompt()")
   document.getElementById('Q').appendChild(par)
 }
 
@@ -52,4 +53,27 @@ function loadFile(filePath) {
     result = xmlhttp.responseText;
   }
   return result;
+}
+
+
+function changeSize(){
+  banner = document.getElementById('Q')
+  if (banner.style.height == "100%"){
+    banner.style.height = "450px";
+  }
+  else{
+    banner.style.height = "100%";
+  }
+}
+
+function changePrompt(){
+  prompt = document.getElementById("prompt").remove();
+  Papa.parse("Prompts.csv", {
+    header: true,
+    download: true,
+    dynamicTyping: true,
+    complete: function(results){
+      processPrompts(results.data);
+    }
+  });
 }

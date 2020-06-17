@@ -1,5 +1,4 @@
 //Read from the .csv file "CMS"
-
 function addData(db,id){
   var data;
   Papa.parse(db, {

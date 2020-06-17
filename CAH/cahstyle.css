@@ -89,7 +89,7 @@ a:hover, a:active{
 }
 
 .response:hover {
-  z-index: 0;
+  z-index: 50;
   transition-duration: 0.2s;
   box-shadow: 5px 10px 40px grey;
   width: calc(350px+15px);

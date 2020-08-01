@@ -28,8 +28,38 @@
 
     <div class = "Section" id = "Skills">
       <sectionTitle>Skills</sectionTitle>
-      <itemTitle style="font-weight:400;width:100%; font-size: 13px;"><b>Programming.</b>  C++, C, Java, Python, MATLAB, JavaScript, Qiskit. | <p><b>Formatting.</b>  HTML, XML, CSS, PHP, LaTeX |</p> <p><b>Software.</b> SolidWorks, Fusion 360, OnShape, Geant4, COMSOL, Simulink, Overleaf, Adobe CC, Eagle, Upverter, Unity, Blender, Conda, Qt, Processing, Davinci Resolve, Vernier Logger Pro, Cadence, QUCS, LTspice. |</p> <b>Hardware.</b> Arduino, Raspberry Pi, Circuit Prototyping, 3D Printing, Laser Cutting, CNC, Machining, Waterjet Cutting |</itemTitle>
+
+      <div style="display:flex">
+        <div class = "half-box"  id="Theoretical">
+          <!-- <div class = "skill">
+            <svg class="ring-svg"><circle class="ring" r="100%" data-percent="70"/></svg>
+            <p class="inner-text">TEST</p>
+            <div class="details">
+              <p>Test1 Reason</p>
+              <p>Test2 Reason</p>
+              <p>Test3 Reason</p>
+              <p>Test4 Reason</p>
+            </div>
+          </div> -->
+          <script type="text/javascript">addSkillData('DB/theoretical.csv');</script>
+        </div>
+        
+        <div class = "half-box">
+          <itemTitle>Programming</itemTitle>
+          <div class="Icons" id = "Programming"></div>
+          <itemTitle>Formatting</itemTitle>
+          <div class="Icons" id = "Formatting"></div>
+          <itemTitle>Software</itemTitle>
+          <div class="Icons" id = "Software"></div>
+          <itemTitle>Hardware</itemTitle>
+          <div class="Icons" id = "Hardware"></div>
+
+          <!-- <itemTitle style="font-weight:400;width:100%; font-size: 13px;"><b>Programming.</b>  C++, C, Java, Python, MATLAB, JavaScript, Qiskit. | <p><b>Formatting.</b>  HTML, XML, CSS, PHP, LaTeX |</p> <p><b>Software.</b> SolidWorks, Fusion 360, OnShape, Geant4, COMSOL, Simulink, Overleaf, Adobe CC, Eagle, Upverter, Unity, Blender, Conda, Qt, Processing, Davinci Resolve, Vernier Logger Pro, Cadence, QUCS, LTspice. |</p> <b>Hardware.</b> Arduino, Raspberry Pi, Circuit Prototyping, 3D Printing, Laser Cutting, CNC, Machining, Waterjet Cutting |</itemTitle> -->
+          <script type="text/javascript">addIconData("DB/skills.csv");</script>
+        </div>
+      </div>
     </div>
+
 
     <div class = "Section" id = "ExperienceData">
       <sectionTitle>Experience</sectionTitle>
@@ -41,7 +71,7 @@
       <script type="text/javascript">addData("DB/research.csv","ResearchData");</script>
     </div>
 
-    <div class = "Conferences" id = "PresentationData">
+    <div class = "Section" id = "PresentationData">
       <sectionTitle>Keynotes & Workshops</sectionTitle>
       <script type="text/javascript">addData("DB/presentations.csv","PresentationData");</script>
     </div>
@@ -50,6 +80,8 @@
     </div class="download">
       <itemTitle style="text-align:center; width:100%;margin-bottom:100px;margin-top:50px;"><a href="CV.pdf">DOWNLOAD SHORT PDF</a></itemTitle>
     </div>
+
+
 
   </body>
 </html>

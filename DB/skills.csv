@@ -1,0 +1,34 @@
+﻿class,title,src,alt,percent
+Programming,C++,icons/cpp.png,C++,90%
+Programming,C#,icons/csharp.png,C#,60%
+Programming,Python,icons/python.png,Python,90%
+Programming,MATLAB,icons/matlab.png,MATLAB,70%
+Programming,Javascript,icons/javascript.png,Javascript,60%
+Programming,Qiskit,icons/qiskit.png,Qiskit,80%
+Formatting,HTML,icons/html.png,HTML,75%
+Formatting,CSS,icons/css.png,CSS,75%
+Formatting,php,icons/php.png,php,40%
+Formatting,LaTeX,icons/tex.png,LaTeX,90%
+Software,Solidworks,icons/solidworks.png,Solidworks,85%
+Software,Fusion 360,icons/fusion360.png,Fusion 360,90%
+Software,Onshape,icons/onshape.png,Onshape,65%
+Software,Geant4,icons/geant4.png,Geant4,65%
+Software,COMSOL,icons/comsol.png,COMSOL,40%
+Software,SimuLink,icons/simulink.jpeg,SimuLink,45%
+Software,Overleaf,icons/overleaf.png,Overleaf,90%
+Software,Adobe CC,icons/adobecc.png,Adobe CC,75%
+Software,Eagle,icons/eagle.png,Eagle,80%
+Software,Upverter,icons/upverter.png,Upverter,80%
+Software,Unity,icons/unity.png,Unity,65%
+Software,Blender,icons/blender.png,Blender,65%
+Software,Conda,icons/conda.png,Conda,80%
+Software,Qt,icons/qt.png,Qt,70%
+Software,Processing,icons/processing.png,Processing,80%
+Software,Davinci Resolve,icons/davinci.png,Davinci Resolve,70%
+Software,Logger Pro,icons/loggerpro.png,Logger Pro,70%
+Software,Pasco Capstone,icons/capstone.png,Pasco Capstone,80%
+Software,Cadence,icons/cadence.png,Cadence,80%
+Software,QUCS,icons/qucs.png,QUCS,80%
+Software,Ltspice,icons/ltspice.png,Ltspice,90%
+Hardware,Arduino,icons/arduino.png,Arduino,90%
+Hardware,Raspberry Pi,icons/raspberrypi.png,Raspberry Pi,70%

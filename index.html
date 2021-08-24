@@ -1,87 +1,147 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script language="javascript" type="text/javascript" src="./papaparse.min.js"></script>
-    <script language="javascript" type="text/javascript" src="./loadData.js"></script>
-    <link rel="stylesheet" href="./style.css" type="text/css">
-    <base target="_blank">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap">
+        <link rel="stylesheet" href="./style.css" type="text/css">
+        <base target="_blank">
+        <title>Panos' Homepage</title>
+    </head>
 
-    <title>Panos Oikonomou</title>
-  </head>
-  <body>
-
-    <div class = "Header">
-      <name>PANOS OIKONOMOU</name>
-      <nameTitle>Physics and Math Student</nameTitle>
-      <nameTitle>New York University</nameTitle>
-      <br>
-      <contact><b>@ </b> <a href="mailto:panoso@nyu.edu">panoso at nyu dot edu</a> | <b> # </b> +971 56 7928 661 |<b> ? </b>Abu Dhabi, UAE</contact>
-    </div>
-
-    <div class = "Section" id = "EducationData">
-      <sectionTitle>Education</sectionTitle>
-      <script type="text/javascript">addData("DB/education.csv","EducationData");</script>
-    </div>
-
-    <div class = "Section" id = "Skills">
-      <sectionTitle>Skills</sectionTitle>
-
-      <div style="display:flex">
-        <div class = "half-box"  id="Theoretical">
-          <!-- <div class = "skill">
-            <svg class="ring-svg"><circle class="ring" r="100%" data-percent="70"/></svg>
-            <p class="inner-text">TEST</p>
-            <div class="details">
-              <p>Test1 Reason</p>
-              <p>Test2 Reason</p>
-              <p>Test3 Reason</p>
-              <p>Test4 Reason</p>
+    <body>
+    <div id="wrapper1">
+    <div id="wrapper2">
+        <!-- Introduction -->
+        <div class="intro-box">
+            <div class="left-box hide-mobile"  style="float:left;">
+                <f>
+                <p>Hi!</p>
+                <p>I'm <name>Panos</name>.</p>
+                <p>I do <acc>Physics</acc> and <acc>Math</acc>.</p>
+                </f>
             </div>
-          </div> -->
-          <script type="text/javascript">addSkillData('DB/theoretical.csv');</script>
+            <div class="right-box" style="float:right;">
+                <img src="./media/start-image-bg.jpeg" alt="Hello! I'm Panos!">
+            </div>
         </div>
-        
-        <div class = "half-box">
-          <itemTitle>Programming</itemTitle>
-          <div class="Icons" id = "Programming"></div>
-          <itemTitle>Formatting</itemTitle>
-          <div class="Icons" id = "Formatting"></div>
-          <itemTitle>Software</itemTitle>
-          <div class="Icons" id = "Software"></div>
-          <itemTitle>Hardware</itemTitle>
-          <div class="Icons" id = "Hardware"></div>
 
-          <!-- <itemTitle style="font-weight:400;width:100%; font-size: 13px;"><b>Programming.</b>  C++, C, Java, Python, MATLAB, JavaScript, Qiskit. | <p><b>Formatting.</b>  HTML, XML, CSS, PHP, LaTeX |</p> <p><b>Software.</b> SolidWorks, Fusion 360, OnShape, Geant4, COMSOL, Simulink, Overleaf, Adobe CC, Eagle, Upverter, Unity, Blender, Conda, Qt, Processing, Davinci Resolve, Vernier Logger Pro, Cadence, QUCS, LTspice. |</p> <b>Hardware.</b> Arduino, Raspberry Pi, Circuit Prototyping, 3D Printing, Laser Cutting, CNC, Machining, Waterjet Cutting |</itemTitle> -->
-          <script type="text/javascript">addIconData("DB/skills.csv");</script>
+        <div class="intro-box show-mobile">
+            <div class="left-box">
+                <p>Hi, I'm <name>Panos</name>!</p>
+                <p>I do <acc>Physics</acc> and <acc>Math</acc>.</p>
+            </div>
         </div>
-      </div>
+
+        <!-- Menu -->
+        <div class="menu">
+            <ul>
+                <li class="hide-mobile"><a href="#hello" target="_self">HELLO!</a></li>
+                <li class="hide-mobile"><a href="#research" target="_self">RESEARCH</a></li>
+                <li class="hide-mobile"><a href="#more" target="_self">MORE</a></li>
+                <li><a href="mailto:po524@nyu.edu">@</a> <a href="https://github.com/PanosEconomou"><img src="./media/github.png"></a> <a href="https://orcid.org/0000-0003-2296-6415"><img src="./media/orcid.png"></a> <a href="./cv/index.html">CV</a></li>
+            </ul>
+        </div>
+        <script language="javascript" type="text/javascript" src="./scripts/stick.js"></script>
+
+        <!-- Space -->
+        <div style="height: 15vh;" class="hide-mobile"></div>
+        <div class="separator hide-mobile"></div>
+
+        <!-- The content -->
+        <div id="content-space">
+            <div class="content">
+                <img class="bg hide-mobile" src="./media/notes-bg-small.png">
+                <!-- Hello! -->
+                <div class="text">
+                    <a class="anchor" name="hello"></a>
+
+                    <h1>HELLO!</h1>
+                    <p>I’m a student at <a href="https://nyuad.nyu.edu/en/"><int>New York University</int></a> studying <int>Physics</int> and <int>Mathematics</int> with a minor in Engineering.</p>
+                    <p>I am currently doing <a href="#research" target="_self"><int>research</int></a> in <int>Mathematical</int> and <int>High Energy Physics</int> at NYUAD Astroparticle Laboratory and Sati Group.</p>
+                    <p>My research interests include <int>Astroparticle Physics,</int> <int>Partial Differential Equations,</int> and <int>Gauge Theories</int>.</p>
+                    <br>
+                    <br>
+                    <p><a href="./cv/CV.pdf"><int>Resume</int></a>, <a href="./cv/index.html"><int>CV</int></a></p>
+                    <p><a href="#more" target="_self"><int>Relevant Coursework</int></a></p>
+                </div>
+
+                <!-- Research -->
+                <div class="text">
+                    <a class="anchor" name="research"></a>
+
+                    <h1>RESEARCH IN A NUTSHELL</h1>
+                    <p><int>In Theoretical Physics</int>, I am currently studying Gauge Theory in order to apply it to the study of Modern Field Theories. I have also studied Neutrinoless Beta Decay and conducted my Undergraduate Thesis on predicting the acoustic signatures of WIMPs in Noble Liquid detectors.</p>
+                    <p><int>In Experimental Physics</int>, I am currently part of the <a href="http://www.xenon1t.org/">XENON Collaboration</a> working on computational models for dark matter signal waveforms on the XENONnT detector. I have also worked on the design and development of a <a href="http://nyuad-astroparticle.com/haloscope/"> Dielectric Haloscope </a> to detect Dark Photons.</p>
+                    <p><int>In Engineering</int>, I developed a theoretical continuous optimization algorithm based on stigmergy. I also worked on the design of haptic actuators, the theoretical modelling of soft haptic materials, and rocket payload design for a dark matter experiment.</p>
+                    <br>
+                    <br>
+                    <p><a href="./cv/CV.pdf"><int>Resume</int></a>, <a href="./cv/index.html"><int>CV</int></a></p>
+                    <p><a href="./cv/index.html"><int>Publication List</int></a></p>
+                    <p><a href="#more" target="_self"><int>Relevant Coursework</int></a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- More -->
+        <a class="anchor" name="more"></a>
+        <div id="content-space" class="last">
+            <div style="background: white; z-index:2;width:100vw; height:100%; position:absolute; top:0;"></div>
+            <div class="content" style="z-index:10;">
+                <div class="text" style="width:80%; margin-bottom: 1vh;">
+                    <h2>RELEVANT SKILLS AND COURSEWORK</h2>
+                    <p>Here is a curated list of skills, courses, and projects for each of theoretical, experimental physics, and engineering.</p>
+                </div>
+
+                <button class="collapsible">> THEORETICAL PHYSICS</button>
+                <div class="collapsible-content">
+                    <div class="line"></div>
+                    <br>
+                    <h3>SKILLS</h3>
+                    <p></p>
+                    <h3>COURSES</h3>
+                    <p>Differential Geometry, Quantum Field Theory (Graduate Course), General Relativity, Real Analysis, Complex Analysis, Partial Differnetial Equations, Advanced Quantum Mechanics, Abstract Algebra, Numerical Methods</p>
+                    <h3>PROJECTS</h3>
+                    <div class="line"></div>
+                </div>
+                <br>
+
+                <button class="collapsible">> EXPERIMENTAL PHYSICS</button>
+                <div class="collapsible-content">
+                    <div class="line"></div>
+                    <br>
+                    <h3>SKILLS</h3>
+                    <p></p>
+                    <h3>COURSES</h3>
+                    <p>Differential Geometry, Quantum Field Theory (Graduate Course), General Relativity, Real Analysis, Complex Analysis, Partial Differnetial Equations, Advanced Quantum Mechanics, Abstract Algebra, Numerical Methods</p>
+                    <h3>PROJECTS</h3>
+                    <div class="line"></div>
+                </div>
+                <br>
+
+                <button class="collapsible">> ENGINEERING</button>
+                <div class="collapsible-content">
+                    <div class="line"></div>
+                    <br>
+                    <h3>SKILLS</h3>
+                    <p></p>
+                    <h3>COURSES</h3>
+                    <p>Differential Geometry, Quantum Field Theory (Graduate Course), General Relativity, Real Analysis, Complex Analysis, Partial Differnetial Equations, Advanced Quantum Mechanics, Abstract Algebra, Numerical Methods</p>
+                    <h3>PROJECTS</h3>
+                    <div class="line"></div>
+                </div>
+                <br>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <!-- <script language="javascript" type="text/javascript" src="./scripts/stick.js"></script> -->
+        <script language="javascript" type="text/javascript" src="scripts/collapsible.js"></script>
+
     </div>
-
-
-    <div class = "Section" id = "ExperienceData">
-      <sectionTitle>Experience</sectionTitle>
-      <script type="text/javascript">addData("DB/experience.csv","ExperienceData");</script>
     </div>
-
-    <div class = "Section" id = "ResearchData">
-      <sectionTitle>Research</sectionTitle>
-      <script type="text/javascript">addData("DB/research.csv","ResearchData");</script>
-    </div>
-
-    <div class = "Section" id = "PresentationData">
-      <sectionTitle>Keynotes & Workshops</sectionTitle>
-      <script type="text/javascript">addData("DB/presentations.csv","PresentationData");</script>
-    </div>
-
-
-    </div class="download">
-      <itemTitle style="text-align:center; width:100%;margin-bottom:100px;margin-top:50px;"><a href="CV.pdf">DOWNLOAD SHORT PDF</a></itemTitle>
-    </div>
-
-
-
-  </body>
+    </body>
 </html>

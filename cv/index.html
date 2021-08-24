@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script language="javascript" type="text/javascript" src="./papaparse.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./loadData.js"></script>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <base target="_blank">
+
+    <title>Panos Oikonomou</title>
+  </head>
+  <body>
+
+    <div class = "Header">
+      <div style="display: flex;">
+        <div class="half-box">
+          <name>PANOS OIKONOMOU</name>
+          <nameTitle>Physics and Math Student</nameTitle>
+          <nameTitle>New York University</nameTitle>
+          <br>
+          <contact><b>@ </b> <a href="mailto:panoso@nyu.edu">panoso at nyu dot edu</a> | <b> # </b> +971 56 7928 661 |<b> ? </b>Abu Dhabi, UAE</contact>
+        </div>
+
+        <div class="half-box">
+          <div class="search">
+            <input type="text" placeholder=" ">
+            <div>
+                <svg>
+                    <use xlink:href="#path">
+                </svg>
+            </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class = "Section" id = "EducationData">
+      <sectionTitle>Education</sectionTitle>
+      <script type="text/javascript">addData("DB/education.csv","EducationData");</script>
+    </div>
+
+    <div class = "Section" id = "Skills">
+      <sectionTitle>Skills</sectionTitle>
+
+      <div style="display:flex">
+        <div class = "half-box"  id="Theoretical">
+          <!-- <div class = "skill">
+            <svg class="ring-svg"><circle class="ring" r="100%" data-percent="70"/></svg>
+            <p class="inner-text">TEST</p>
+            <div class="details">
+              <p>Test1 Reason</p>
+              <p>Test2 Reason</p>
+              <p>Test3 Reason</p>
+              <p>Test4 Reason</p>
+            </div>
+          </div> -->
+          <script type="text/javascript">addSkillData('DB/theoretical.csv');</script>
+        </div>
+        
+        <div class = "half-box">
+          <itemTitle>Programming</itemTitle>
+          <div class="Icons" id = "Programming"></div>
+          <itemTitle>Formatting</itemTitle>
+          <div class="Icons" id = "Formatting"></div>
+          <itemTitle>Software</itemTitle>
+          <div class="Icons" id = "Software"></div>
+          <itemTitle>Hardware</itemTitle>
+          <div class="Icons" id = "Hardware"></div>
+
+          <!-- <itemTitle style="font-weight:400;width:100%; font-size: 13px;"><b>Programming.</b>  C++, C, Java, Python, MATLAB, JavaScript, Qiskit. | <p><b>Formatting.</b>  HTML, XML, CSS, PHP, LaTeX |</p> <p><b>Software.</b> SolidWorks, Fusion 360, OnShape, Geant4, COMSOL, Simulink, Overleaf, Adobe CC, Eagle, Upverter, Unity, Blender, Conda, Qt, Processing, Davinci Resolve, Vernier Logger Pro, Cadence, QUCS, LTspice. |</p> <b>Hardware.</b> Arduino, Raspberry Pi, Circuit Prototyping, 3D Printing, Laser Cutting, CNC, Machining, Waterjet Cutting |</itemTitle> -->
+          <script type="text/javascript">addIconData("DB/skills.csv");</script>
+        </div>
+      </div>
+    </div>
+
+
+    <div class = "Section" id = "ExperienceData">
+      <sectionTitle>Experience</sectionTitle>
+      <script type="text/javascript">addData("DB/experience.csv","ExperienceData");</script>
+    </div>
+
+    <div class = "Section" id = "ResearchData">
+      <sectionTitle>Research</sectionTitle>
+      <script type="text/javascript">addData("DB/research.csv","ResearchData");</script>
+    </div>
+
+    <div class = "Section" id = "PresentationData">
+      <sectionTitle>Keynotes & Workshops</sectionTitle>
+      <script type="text/javascript">addData("DB/presentations.csv","PresentationData");</script>
+    </div>
+
+
+    </div class="download">
+      <itemTitle style="text-align:center; width:100%;margin-bottom:100px;margin-top:50px;"><a href="CV.pdf">DOWNLOAD SHORT PDF</a></itemTitle>
+    </div>
+
+
+
+  </body>
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" id="path">
+        <path d="M32.9418651,-20.6880772 C37.9418651,-20.6880772 40.9418651,-16.6880772 40.9418651,-12.6880772 C40.9418651,-8.68807717 37.9418651,-4.68807717 32.9418651,-4.68807717 C27.9418651,-4.68807717 24.9418651,-8.68807717 24.9418651,-12.6880772 C24.9418651,-16.6880772 27.9418651,-20.6880772 32.9418651,-20.6880772 L32.9418651,-29.870624 C32.9418651,-30.3676803 33.3448089,-30.770624 33.8418651,-30.770624 C34.08056,-30.770624 34.3094785,-30.6758029 34.4782612,-30.5070201 L141.371843,76.386562" transform="translate(83.156854, 22.171573) rotate(-225.000000) translate(-83.156854, -22.171573)"></path>
+    </symbol>
+  </svg>
+  
+</html>

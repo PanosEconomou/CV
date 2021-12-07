@@ -1,16 +1,23 @@
 ﻿itemTitle,placeDate,description,link
-Research Assistant Center For Space Science | Emirates Mars Mission,UAE | 2020,"Computational Physics Research on Martian Atmosphere Ionisation rates with altitude.
-•Developing Geant4 (C++) Simulation of Martian atmosphere, worked with AtRIS
-•Data is used in determining the landing procedure and timing for the Emirates Mars Mission Hope proble, as well as calibrating onboard instrunments",https://www.emiratesmarsmission.ae/
-Research Assistant Astroparticle Physics Laboratory | NYUAD,UAE | 2018 – now,"Theoretical Physics and Practical Design: Haloscope Dark Matter Detector (Axions, Dark Photons)
-•Dark Optics Analysis for Detector design and Simulation with SolidWorks/COMSOL
-•Subatomic Simulations with Geant4
-Engineering Design: Compact x-ray Fluorometer (XRF) for ancient artefact elemental analysis
-•Analog Adjustable PID for Detector Noise Reduction with Liquid Helium | Circuit/PCB Design, Simulation, Manufacturing, Implementation. CAD/CAM Head Sensor Assembly",https://nyuad.nyu.edu/en/research/centers-labs-and-projects/astroparticle-physics-lab.html
-Research Assistant Applied Multimedia Laboratory | NYUAD,UAE | 2018 – 2020,"•	Applied Thermoelectric Control Optimization research using TEC. Development of optimum digital feedback control for Peltier Cells applied for Thermovibrotactile Funneling Systems
+Research Assistant Center for Cosmology and Particle Physics | NYU,US | 2021 - now,"Theoretical Physics: <b>Dark Matter in the solar basin</b>.
+•   Developed an analysis framework with Professor Ken Van Tilburg for constraining the coupling constant of Dark Photons and Axions in bound orbits around the sun using Data from Direct dark matter experiments (MUDHI, XENON).
+•   Used CLs and Power Constraint Limits methods to calculate upper limits.",https://arxiv.org/abs/2006.12431
+Research Assistant Astroparticle Physics Laboratory | NYUAD,UAE | 2018 – now,"Theoretical Physics and Practical Design: <b>Haloscope Dark Matter Detector</b> (Axions, Dark Photons) 
+•   Dark Optics Analysis for Detector design and Simulation with SolidWorks/COMSOL
+•   Subatomic Simulations with Geant4.
+Theoretical physics: <b>Acoustic signal of Minimum Ionizing Particles in Noble liquids</b>
+•   Development of Effective Quantum Field Theory for acoustic signals in strongly damped environments.
+•   Classical study of strong damping including local lagrangian symmetries, far field approximation of solutions, and FEM methods for short argument estimation of solutions.
+Engineering Design: <b>Compact x-ray Fluorometer (XRF) for ancient artefact elemental analysis</b>
+•   Analog Adjustable PID for Detector Noise Reduction with Liquid Helium | Circuit/PCB Design, Simulation, Manufacturing, Implementation. CAD/CAM Head Sensor Assembly",https://nyuad.nyu.edu/en/research/centers-labs-and-projects/astroparticle-physics-lab.html
+Research Assistant Center For Space Science | Emirates Mars Mission,UAE | 2020,"Computational Physics Research on <b>Martian Atmosphere Ionisation rates with altitude</b>.
+•   Developing Geant4 (C++) Simulation of Martian atmosphere, worked with AtRIS
+•   Data is used in determining the landing procedure and timing for the Emirates Mars Mission Hope proble, as well as calibrating onboard instrunments",https://www.emiratesmarsmission.ae/
+Research Assistant Applied Multimedia Laboratory | NYUAD,UAE | 2018 – 2020,"•	<b>Applied Thermoelectric Control Optimization research using TEC</b>. Development of optimum digital feedback control for Peltier Cells applied for Thermovibrotactile Funneling Systems.
 •	Development of vibrotactile actuation, with independent control of frequency and amplitude. Spice Resonance Simulations, Circuit Design and Development 
 •	Theoretical Physics analysis of available technologies for soft haptics",https://wp.nyu.edu/aimlab/
-Engineering Teaching Assistant | NYUAD ECE,UAE | 2019 – now ,"•	Teaching Assistant for Programming for Engineers Course in NYUAD. Topics include C++, MATLAB, Searching, Sorting Algorithms, Data Structures, Dynamic Memory, OOP, Unity. 
+Engineering Teaching Assistant | NYUAD ECE,UAE | 2019 – 2020,"<b>Teaching Assistant for Programming for Engineers</b> Course in NYUAD. 
+•	Topics include: C++, MATLAB, Searching, Sorting Algorithms, Data Structures, Dynamic Memory, OOP, Unity. 
 •	Duties include: Lab instruction, Recitations, Grading.",https://nyuad.nyu.edu/en/academics/undergraduate/majors-and-minors/computer-engineering-major/courses.html
-Student Council Head of Central & Eastern Europe | Microsoft,EU | 2016 – 2017 ,"•	Part of globally selected 12-member board for Microsoft’s Education Activities coordination. 
+Microsoft Student Council Head of Central & Eastern Europe | Microsoft,EU | 2016 – 2017 ,"•	Part of globally selected 12-member board for Microsoft’s Education Activities coordination. 
 •	Organized Outreach events and Competitions in Russia, Greece, Lithuania. Head Organizer of International STEM outreach conference. Coordinator of Global Student Ambassador Program.",https://studentpartners.microsoft.com/en-us

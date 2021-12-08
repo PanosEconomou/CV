@@ -3,6 +3,7 @@ Programming,C++,icons/cpp.png,C++,90%
 Programming,C#,icons/csharp.png,C#,60%
 Programming,Python,icons/python.png,Python,90%
 Programming,MATLAB,icons/matlab.png,MATLAB,70%
+Programming,Geant4,icons/geant4.png,Geant4,65%
 Programming,Java,icons/java.png,Java,80%
 Programming,Javascript,icons/javascript.png,Javascript,60%
 Programming,Qiskit,icons/qiskit.png,Qiskit,80%
@@ -14,7 +15,6 @@ Software,Mathematica,icons/mathematica.png,Mathematica,80%
 Software,Solidworks,icons/solidworks.png,Solidworks,85%
 Software,Fusion 360,icons/fusion360.png,Fusion 360,90%
 Software,Onshape,icons/onshape.png,Onshape,65%
-Software,Geant4,icons/geant4.png,Geant4,65%
 Software,COMSOL,icons/comsol.png,COMSOL,40%
 Software,SimuLink,icons/simulink.jpeg,SimuLink,45%
 Software,Overleaf,icons/overleaf.png,Overleaf,90%
